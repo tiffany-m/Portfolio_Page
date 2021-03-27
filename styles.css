@@ -1,0 +1,53 @@
+/*Fix My Divs!!! 
+div,img{
+    border: dashed 1px gray;
+    padding:1px;
+}
+.container {
+    border: solid 1px green;
+    padding:1px;
+}
+.col, .col-md-2, .col-md-3, .col-md-4{
+    border: solid 1px rgb(4, 0, 255);
+    padding:1px;
+}
+.row {
+    border: solid 1px red;
+    padding:1px;
+} */
+body {
+  font-family: "Open Sans", sans-serif;   
+  background: url(/img/lightBG.jpg) no-repeat center center fixed;
+  background-size: cover; 
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 15px;
+  background-image: linear-gradient(to right,  #1e1c8d, #4af9ff, #15dbc1, #28f68f, #53e778); 
+  color: black; 
+}
+
+.navbar {
+  background-color: #4af9ff;
+  font-weight: bold;
+}
+
+.site-footer {
+  background-image: linear-gradient(#4af9ff, #CFF4D2);
+  padding: 15px;
+  position: absolute;
+  width: 100%; }
+
+h1 {
+  font-size: 75px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Lobster", cursive; 
+}
+
+.boxStyle {
+   background-color: rgba(255, 255, 255, 0.829);
+   border: solid #4af9ff;
+  }
